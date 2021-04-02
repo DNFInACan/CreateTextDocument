@@ -1,0 +1,14 @@
+main: com.dev_1.CreateTextDocument.CreateTextDocument
+name: CreateTextDocument
+api-version: 1.14
+version: 1.0
+author: dev_1
+description: Creates a text document in a specified path.
+commands:
+  createtxt:
+    description: Creates a text document to the current path.
+    usage: /<command> <file_name> <data>
+  reloadplugin:
+    description: Reloads the plugin, just incase it breaks, or for testing purposes. Requires op.
+    usage: /<command>
+    permission: op
